@@ -1,0 +1,10 @@
+/* SkillBadge.css */
+.skill-badge {
+    text-align: center;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+  font-size: 0.9rem;
+}
