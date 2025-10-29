@@ -1,22 +1,26 @@
 body {
   font-family: "Poppins", sans-serif;
-  background:  linear-gradient(90deg,rgba(93, 93, 163, 1) 0%, rgba(105, 29, 29, 1) 50%, rgba(252, 237, 69, 1) 100%);
-  margin: 0;
+  background:  linear-gradient(90deg,rgb(77, 92, 77) 0%, white 50%, rgb(77, 88, 77) 100%)
+  
+  ;
+  margin: 0; 
   padding: 0;
 }
 
 .expense-tracker {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 20px auto;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+ 
   padding: 20px;
+  width: 100vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .header {
   text-align: center;
-  color: #222;
+  color: #0a4e04;
   margin-bottom: 20px;
 }
 
@@ -35,7 +39,7 @@ body {
 }
 
 .expense-form button {
-  background: #007bff;
+  background:#0a4e04;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -58,17 +62,27 @@ body {
 }
 
 .filter-container .active {
-  background: #007bff;
+  background: #0e4908;
   color: white;
 }
 
 .stats {
-  background: #fafafa;
+  background: #f7f7f7;
   padding: 10px;
   border-radius: 6px;
   margin-bottom: 15px;
+  
 }
 
+.numb{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ulil{
+  display: flex;
+  justify-content: space-between;
+}
 .expense-list {
   display: flex;
   flex-direction: column;
@@ -91,7 +105,7 @@ body {
 
 .no-expenses {
   text-align: center;
-  color: #777;
+  color: #0a4e04;
 }
 
 @media (max-width: 600px) {

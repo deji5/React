@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const categoryColors = {
-  Food: "#ffb3b3",
-  Transport: "#b3d9ff",
-  Bills: "#fff0b3",
-  Entertainment: "#d9b3ff",
-  Others: "#c2f0c2",
+  Food: "#f3e7e7ff",
+  Transport: "#d3dce6ff",
+  Bills: "#eee9d7ff",
+  Entertainment: "#e5ddecff",
+  Others: "#b7d4b7ff",
 };
 
 const ExpenseItem = ({ expense, deleteExpense, editExpense }) => {

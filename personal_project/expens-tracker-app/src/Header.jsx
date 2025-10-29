@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>💰 Expense Tracker</h1>
+      <h1>Expense Tracker</h1>
       <p>{today}</p>
     </header>
   );

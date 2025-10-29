@@ -12,12 +12,14 @@ const ExpenseStats = ({ expenses }) => {
 
   return (
     <div className="stats">
-      <h3>📈 Statistics</h3>
+      <h3>Statistics</h3>
+      <div className="numb">
       <p>Total Spent: ₦{total.toLocaleString()}</p>
       <p>Number of Expenses: {count}</p>
       <p>Highest Expense: ₦{highest.toLocaleString()}</p>
+      </div>
       <h4>Breakdown:</h4>
-      <ul>
+      <ul className="ulil">
         {Object.entries(breakdown).map(([cat, amt]) => (
           <li key={cat}>
             {cat}: ₦{amt.toLocaleString()}

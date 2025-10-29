@@ -21,7 +21,7 @@ const ColorPicker = () => {
 
   return (
     <div style={styles.container}>
-      <h2>🎨 Color Picker</h2>
+      <h2>Color Picker</h2>
 
       <RGBSlider label="Red" value={red} onChange={setRed} color="red" />
       <RGBSlider label="Green" value={green} onChange={setGreen} color="green" />
@@ -38,7 +38,7 @@ const styles = {
     margin: "2rem auto",
     padding: "1.5rem",
     borderRadius: "10px",
-    background: "#fafafa",
+    background: "#ffffffff",
     boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
     fontFamily: "Arial, sans-serif",
   },
