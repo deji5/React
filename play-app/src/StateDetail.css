@@ -1,0 +1,48 @@
+.state-detail {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: #008751;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.state-detail h1 {
+  color: #008751;
+  margin-bottom: 20px;
+}
+
+.state-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.info-item {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.description, .attractions {
+  margin: 2rem 0;
+}
+
+.attractions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.attractions li {
+  background: #f5f5f5;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}

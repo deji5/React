@@ -1,8 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
-  background:  linear-gradient(90deg,rgb(77, 92, 77) 0%, white 50%, rgb(77, 88, 77) 100%)
-  
-  ;
+  background:  linear-gradient(90deg,rgb(77, 92, 77) 0%, white 50%, rgb(77, 88, 77) 100%) ;
   margin: 0; 
   padding: 0;
 }
@@ -77,6 +74,12 @@ body {
 .numb{
   display: flex;
   justify-content: space-between;
+  /* text-align: center;
+  align-items: center;
+  justify-content: center; */
+  /* border: 2px solid black;
+  border-radius: 20px;
+  background-color: #848f83; */
 }
 
 .ulil{

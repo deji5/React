@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f6fa;
+}
+
+.auth-container {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+.auth-container button {
+  padding: 8px 16px;
+  margin-top: 10px;
+}
+
+.navbar {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.logout-btn {
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.page-content {
+  padding: 40px;
+  text-align: center;
+}
