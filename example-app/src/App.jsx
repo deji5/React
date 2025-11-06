@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
@@ -10,9 +10,10 @@ function App() {
   const isAuthenticated = localStorage.getItem("user");
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={isAuthenticated ? <Navigate to="/home" /> : <Login />} />
+    <div>
+      <h1>hello</h1>
+      {/* <Routes> */}
+        {/* <Route path="/" element={isAuthenticated ? <Navigate to="/home" /> : <Login />} />
         <Route path="/signup" element={<Signup />} />
         {isAuthenticated ? (
           <>
@@ -22,10 +23,13 @@ function App() {
           </>
         ) : (
           <Route path="*" element={<Navigate to="/" />} />
-        )}
-      </Routes>
-    </Router>
+        )} */}
+            {/* <Route path="/" element={isAuthenticated ? <Navigate to="/home" /> : <Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes> */}
+      </div>
   );
 };
+
 
 export default App;

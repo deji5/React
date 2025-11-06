@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './States.css';
+// import './States.css';
 
 function States() {
   const states = [

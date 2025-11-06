@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import './StateDetail.css';
+// import './StateDetail.css';
 
 function StateDetail() {
   const { stateId } = useParams();
